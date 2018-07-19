@@ -12,11 +12,11 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
+        <Box message="Monday" />
+        <Box message="Tuesday" />
+        <Box message="Wednesday" />
+        <Box message="Thursday" />
+        <Box message="Friday" />
       </div>
     );
   }
